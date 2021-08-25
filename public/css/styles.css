@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: #0e0e55;
+    font-family: 'Klee One', cursive;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form-box{
+    background-color: white;
+    text-align: center;
+    border-radius: 45px;
+    padding: 30px;
+}
+
+.form-box.login{
+    height: 350px;
+    width: 500px;
+}
+
+.form-box.signup{
+    height: 450px;
+    width: 500px;
+}
+
+.input{
+    height: 40px;
+    width: 350px;
+    margin: 5px;
+    padding: 0px 8px 0px 8px;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    font-size: 1vw;
+}
+
+.btn{
+    height: 40px;
+    width: 100px;
+    margin-top: 40px;
+    font-size: 1vw;
+    font-family: 'Klee One', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(78, 152, 170);
+}
+.alert{
+    color:red;
+    margin:0;
+    padding:0;
+}
